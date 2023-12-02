@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+.col-lg-12{
+    padding-left: 0 !important;
+}
+#coding{
+    margin: 1vw;
+    display: grid;
+    grid-template-columns: 33.33333333333333% 33.33333333333333% 33.33333333333333%;
+    margin-bottom: 5vw;
+    margin-right: 15px !important;
+    padding: 5px !important;
+    gap: 8px !important;
+}
+.navbar-toggler-icon {
+    color: #ffff !important;
+}
+.navbar-toggler-icon{
+    background-color: rgba(255, 255, 255, 0.729) !important;
+}
+.row img {
+    width: 8vw;
+    height: auto;
+    transition: 1s;
+    align-items: center !important;
+    margin-bottom: 3px !important;
+}
+.navbar-toggler-icon{
+    border-radius: 3px !important;
+}
+.font{
+    text-align: center !important;
+    font-size: 10px !important;
+}
+#coding h6 {
+    font-size: 18px !important;
+}
+.codelink {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    border-radius: 20px;
+}
+.codelink span{
+    background-color:#39ff14;;
+    color:#182C61;
+    border: 2px solid rgba(240, 234, 234, 0.744);
+    border-radius: 17px;
+}
+#day{
+    margin-top: 80px;
+    background-color:#2f3640!important;
+    border: 5px solid rgba(240, 234, 234, 0.744);
+    border-radius: 3px ;
+}
+#day1{
+    margin-top: 17px;
+    background-color:#2f3640!important;
+    border: 5px solid rgba(240, 234, 234, 0.744);
+    border-radius: 3px ;
+}
+.navbar {
+    max-width: 1900px;
+    margin: 0 auto;
+}
+body{
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+
+
+@media(max-width:600px){
+    #backgroundimage{
+        width: 100vw!important;
+        height: 100vh !important;
+    }
+   
+}
+@media(max-width:600px){
+    #coding{
+        margin: 1vw;
+        display: grid;
+        grid-template-columns: 33.33333333333333% 33.33333333333333% 33.33333333333333%;
+        margin-bottom: 5vw;
+        margin-right: 5px !important;
+        padding: 5px !important;
+        gap: 8px !important;
+    }
+    #coding img {
+        width: 15vw !important;
+        height: auto;
+        transition: 1s;
+    }
+    #day1{
+        margin-top: 7px !important;
+        background-color:#2f3640!important;
+        border: 5px solid rgba(240, 234, 234, 0.744);
+        border-radius: 3px ;
+    }
+    #coding h6 {
+        font-size: 10px !important;
+    }
+}

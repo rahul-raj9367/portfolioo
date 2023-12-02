@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #fff;
+    max-width: 1900px;
+    margin: 0 auto;
+}
+.my {
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(0,0,0,0.6);
+    border: 2px solid #fff;
+    padding: 20px;
+}
+.my-1 {
+    margin-top: 30px !important;
+    margin-left: 40px !important;
+}
+.my img {
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: 10px;
+}
+#name {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    letter-spacing: 10px;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+#name1 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 9px;
+    margin: 0;
+}
+.details {
+    padding-top: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#sk{
+    color: rgba(0,0,0,0.6) !important;
+    background-color:rgba(0,0,0,0.2)!important;
+    text-align: center !important;
+    margin-bottom: 0 !important;
+}
+.skills{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-columns:  20% 20% 20% 20% 20%;
+}
+.skills .java {
+    color: black;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: white;
+}
+.java{
+    padding-top: 20px !important;
+}
+#h3{
+    font-weight: 600;
+    padding: 3px !important;
+}
+.edu{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    background-color: rgba(0,0,0,0.02)!important;
+}
+#che{
+    font-size: 23px !important ;
+    text-align: center !important;
+}
+#sch{
+    text-align: center !important;
+    font-size:29px !important ;
+}
+#li{
+    text-align: center !important;
+}
+.college{
+    border: 1px solid rgba(0,0,0,0.1);
+    text-align: center !important;
+}
+#clg{
+    font-size:29px !important ;
+}
+#setha{
+    text-align: center !important;
+    font-size:22px !important ;
+}
+#ee{
+    font-size: 21px !important;
+}
+.lang{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+.tamil{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.tamil  img{
+    margin-top: 15px !important;
+}
+#tam{
+    margin-top: 9px !important;
+    text-align: center !important;
+}
+
+.achie {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.aaa {
+    display: flex;
+    align-items: center;
+    margin-top: 18px !important;
+}
+.a1 {
+    border: 1px solid rgba(0,0,0,0.1);
+}
+#py{
+    font-family: 'Roboto', sans-serif;
+}
+.a1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+}
+.desc {
+    padding-left: 12px;
+}
+.desc h4{
+    margin-top: 3px;
+}
+#date{
+    margin-top: 12px;
+    margin-right: 12px ;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin-bottom: 2px !important;
+    font-weight: bold;
+}
+#crea{
+    margin-top: 18px !important;
+}
+.cer{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.a11 {
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.a11 {
+    background-color: white;
+}
+.a11 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.desc1 {
+    padding-left: 2vw;
+}
+.aaa1 {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aaa1 img {
+    padding-right: 10px;
+}
+.aaa1 h2{
+    font-size: 24px !important;
+}
+.desc1 {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.a11 h3{
+    font-size: 17px !important;
+    margin-top: 13px;
+    margin-right: 19px !important;
+}
+.at {
+
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.rah {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.desc4 {
+    width: 100%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.hob1  {
+    display: flex;
+    align-items: center;
+}
+.hob1 h2{
+    padding-left: 5px !important;
+}
+button{
+    display: flex;
+    justify-content: center !important;
+    text-align: center !important;
+}
+button{
+    margin-top: 3px !important;
+}
+button a{
+    text-decoration: none !important;
+}
+.a11 #py h2 a{
+    text-decoration: none !important;
+}
+@media(min-width:1301px)and (max-width:2000px){
+    .java #chakra {
+        width: 50% ;
+    }
+}
+@media(max-width:1300px){
+    .java #chakra {
+        width: 80% ;
+    }
+}
+@media(min-width:650px)and (max-width:1000px){
+    .java #chakra {
+        width: 100% ;
+    }
+}
+@media(max-width:600px){
+    #backgroundimage{
+        width: 100vw!important;
+        height: 100vh !important;
+    }
+}
+@media(max-width:600px){
+    .my img {
+        width: 75px !important;
+        height: 75px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border: 3px solid white;
+    }
+    .my-1 {
+        margin-top: 8px !important;
+        margin-left: 20px !important;
+    }
+    #name {
+        font-size: 27px !important;
+        letter-spacing: .95px !important;
+        margin-bottom: 2px !important;
+    }
+    #name1 {
+        margin-top: 2px !important;
+        font-size: 9px !important;
+        letter-spacing: .13px !important;
+    }
+    svg{
+        width: 10px !important;
+        height: 10px !important;
+    }
+    .details{
+        margin-top: 1px !important;
+        padding: 0px !important;
+    }
+    #sk{
+        font-size: 10px !important;
+    }
+    .java img {
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .java #chakra {
+        width: 50% !important;
+    }
+    .java svg{
+        width: 30px !important;
+        height: 30px !important;
+    }
+    #h3{
+        font-size: 9px !important;
+    }
+    #che{
+        font-size: 10px !important ;
+        text-align: center !important;
+    }
+    #sch{
+        font-size:11px !important ;
+    }
+    #li{
+        text-align: center !important;
+        font-size: 8px !important ;
+    }
+    .college{
+        text-align: center !important;
+    }
+    #clg{
+        font-size:10px !important ;
+    }
+    #setha{
+        text-align: center !important;
+        font-size:12px !important ;
+    }
+    #ee{
+        font-size: 9px !important;
+    }
+    .tamil  img{
+        margin-top: 5px !important;
+        width: 25px !important;
+        height: 25px !important;
+    }
+    #tam{
+        text-align: center !important;
+        font-size: 8px !important;
+        margin-top: 2.5px !important;
+    }
+    .aaa img{
+        width: 20px ;
+        height: 20px;
+        padding-right: 2px;
+    }
+    .aaa h2{
+        font-size:8px !important ;
+    }
+    .a1 h3{
+        font-size:8px !important ;
+        margin-top: 10px !important;
+    }
+    .a1 h4{
+        font-size:7px !important ;
+        margin-top: 4px !important;
+        margin-right: 2px;
+    }
+    .desc {
+        padding-left: 6px;
+    }
+    #crea{
+        margin-top: 6px !important;
+    }
+    .aaa {
+        margin-top: 7px !important;
+    }
+    .aaa1 img {
+        width: 25px ;
+        height: 25px;
+    }
+    .aaa1 img {
+        padding-right: 5px;
+    }
+    .aaa1 h2{
+        font-size: 10px !important;
+    }
+    .a11 h3{
+        font-size: 9px !important;
+        margin-top: 8px;
+        margin-right: 8px !important;
+    }
+    .desc1 {
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+    .hob1 h2{
+        font-size: 9px !important;
+        padding-left: 2px !important;
+    }
+    button{
+        width: 60px !important;
+        border-radius: 10%;
+        height: 20px !important;
+    }
+    button a h6 {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        font-size: 7px !important;
+        margin: 0 !important;
+    }
+    .school img {
+        width: 60px;
+        height: 60px;
+    }
+    .college img {
+        width: 60px;
+        height: 60px;
+    }
+}

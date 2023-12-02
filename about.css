@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    overflow: hidden !important;
+}
+#backgroundimage{
+    background-color: rgb(0, 0, 0);
+    height: 100vh !important;
+    width: 100vw !important;
+}
+.nav-link a{
+    color: white;
+}
+a:hover{
+    color:#ffff !important;
+    background:linear-gradient( rgba(255, 236, 236, 0.229), rgba(255, 236, 236, 0.229))!important;
+    border-radius: 5px !important;
+}
+.nav-link{
+    font-weight: bold !important;
+}
+.navbar-toggler-icon{
+    background-color: rgba(255, 255, 255, 0.729) !important;
+}
+.navbar {
+    max-width: 1900px;
+    margin: 0 auto;
+}
+body{
+    max-width: 1900px;
+    margin: 0 auto;
+}
+.navbar-toggler-icon{
+    border-radius: 3px !important;
+}
+#rahul{
+    margin-top: 250px  !important;
+    padding: 0% !important;
+    height: 350px !important;
+    width: 350px !important;
+}
+#rahulraj img{
+    border: 5px solid rgba(240, 234, 234, 0.744);
+    border-radius: 50%;
+}
+#rahulraj2{
+    margin-top: 270px  !important;
+}
+.text-center{
+    text-align: center !important;
+}
+
+.text-center1{
+    margin-top:10px !important ;
+    text-align: center !important;
+}
+#rahulraj2 h6{
+    padding: 1px !important;
+}
+#rahulraj2 h5{
+    padding: 3px !important;
+}
+.text-center1{
+    text-shadow:  3px 0 0  rgba(215, 207, 207, 0.811) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px){
+    #backgroundimage{
+        width: 100vw!important;
+        height: 100vh !important;
+    }
+   
+}
+@media(max-width:600px){
+    #rahul{
+        margin-top:140px !important ;
+    }
+
+    #rahulraj img {
+        width: 170px !important;
+        height: 170px !important;
+    }
+    #rahulraj2{
+        margin-top: 20px  !important;
+    }
+    #rahulraj2 h1{
+        font-size: 17px !important;
+    }
+    #rahulraj2 h6{
+        font-size: 16px !important;
+    }
+    #rahulraj2 h6{
+        font-size: 16px !important;
+    }
+    #rahulraj2 h5{
+        font-size: 21px !important;
+    }
+}
+@media(max-width:1700px){
+    .text-center{
+        display: none !important;
+    }    
+}
+
+@media(max-width:200px){
+    .text-center1{
+        display: none !important;
+    }  
+}
+@media(min-width:1000px){
+    #rahulraj2 h6{
+        font-size: 24px !important;
+    }
+    #rahulraj2 h5{
+        font-size: 28px !important;
+    }
+}
